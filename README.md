@@ -13,7 +13,15 @@ npm install --save three
 npm install --save-dev vite
 ```
 
-## Running
+## Running locally
 ```
 npx vite
 ```
+
+## Deploying to AWS Amplify
+
+```
+npx vite build
+```
+
+Now upload the `dist/` dir to your Amplify app.
